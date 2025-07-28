@@ -244,7 +244,7 @@ Como recomendações, não faça um projeto tão longo quanto esse aqui enquanto
 ## 7. Slides da Apresentação
 
 📎 Link para os slides:
-[slides.com/seunome/tema](https://)
+[Slide/Vinicius/SMACSS]([https://](https://www.canva.com/design/DAGuNVVXf8A/Pw-vio3pYplDDX25rp03Ig/edit?utm_content=DAGuNVVXf8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
 
 ---
 
