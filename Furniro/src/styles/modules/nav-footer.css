@@ -1,0 +1,31 @@
+.nav-footer {
+    display: flex;
+    width: 352px;
+    gap: 144px;
+    margin: 48px 72px 0 0;
+}
+
+.nav-footer h3 {
+    font-size: 16px;
+    padding-bottom: 55px;
+    color: #9F9F9F;
+}
+
+.nav-footer a {
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+    color: var(--color-black);
+}
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+.help ul {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}

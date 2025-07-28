@@ -1,0 +1,20 @@
+.explore-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+
+    width: 217px;
+    height: 130px;
+    gap: 8px;
+    margin: 0 0 24px 24px;
+
+    background-color: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(3px);
+}
+
+.explore-aside > h3 {
+    font-size: 28px;
+    color: var(--color-gray-1);
+    padding-left: 32px;
+}

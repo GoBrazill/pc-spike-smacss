@@ -1,0 +1,10 @@
+.background-image-inner-peace {
+    display: flex;
+    align-items: end;
+    position: relative;
+
+    width: 404px;
+    height: 582px;
+
+    background-image: url(../../../assets/images/background-image-inner-peace.svg);
+}

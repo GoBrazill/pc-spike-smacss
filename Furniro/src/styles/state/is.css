@@ -1,0 +1,11 @@
+.links-wrapper > a:hover {
+    transition: 500ms;
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.links-wrapper > a.is-active {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}

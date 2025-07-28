@@ -1,0 +1,23 @@
+.links-wrapper {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: end;
+
+    gap: 38px;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.links-wrapper > a {
+    padding: 15px 24px;
+    border-radius: 10px;
+    border: none;
+
+    background-color: #F9F1E7;
+}
+
+.links-wrapper > a {
+    font-size: 20px;
+    color: var(--color-black);
+}

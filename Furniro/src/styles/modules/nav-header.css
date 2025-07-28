@@ -1,0 +1,9 @@
+.nav-header {
+    display: flex;
+    gap: 75px;
+}
+
+.nav-header a {
+    font-size: 16px;
+    color: var(--color-black);
+}

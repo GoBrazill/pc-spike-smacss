@@ -1,0 +1,8 @@
+.l-browse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 685px;
+    padding: 56.43px 126px 56px 131px;
+}

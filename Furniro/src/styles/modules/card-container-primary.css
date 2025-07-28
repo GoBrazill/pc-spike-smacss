@@ -1,0 +1,24 @@
+.card-container-primary {
+    display: flex;
+    gap: 20px;
+}
+
+.card-primary {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-primary img {
+    width: 310px;
+    height: 480px;
+    padding-top: 62.29px;
+    padding-bottom: 30px;
+
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.card-primary img:hover {
+    transform: translateY(-10px);
+}

@@ -1,0 +1,54 @@
+.image-wrapper-share {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 721px;
+}
+
+.image-wrapper-share > img:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.image-wrapper-share > img:nth-child(2) {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+}
+
+.image-wrapper-share > img:nth-child(3) {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.image-wrapper-share > img:nth-child(4) {
+    position: absolute;
+    top: 15%;
+    left: 62%;
+}
+.image-wrapper-share > img:nth-child(5) {
+    position: absolute;
+    top: 2.5%;
+    right: 0;
+}
+.image-wrapper-share > img:nth-child(6) {
+    position: absolute;
+    top: 58%;
+}
+.image-wrapper-share > img:nth-child(7) {
+    position: absolute;
+    top: 58%;
+    left: 15%;
+}
+.image-wrapper-share > img:nth-child(8) {
+    position: absolute;
+    top: 68%;
+    left: 62%;
+}
+.image-wrapper-share > img:nth-child(9) {
+    position: absolute;
+    top: 68%;
+    left: 75%;
+}

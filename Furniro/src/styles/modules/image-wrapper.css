@@ -1,0 +1,9 @@
+.image-wrapper {
+    display: flex;
+    gap: 24px;
+    height: 582px;
+}
+
+.image-wrapper img:nth-child(3) {
+    right: 0;
+}

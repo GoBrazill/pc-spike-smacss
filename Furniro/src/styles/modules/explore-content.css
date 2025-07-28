@@ -1,0 +1,32 @@
+.explore-content {
+    display: flex;
+    flex-direction: column;
+
+    width: 422px;
+    margin-left: 100px;
+}
+
+.explore-content h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.explore-content p {
+    font-size: 16px;
+    padding-top: 7px;
+    padding-bottom: 25px;
+
+    color: var(--color-gray-2);
+}
+
+.explore-content > a {    
+    width: 176px;
+    height: 48px;
+    padding: 12px 36px;
+    font-weight: 600;
+
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+

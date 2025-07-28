@@ -1,0 +1,15 @@
+.l-cart {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+
+    width: 417px;
+    height: 746px;
+
+    background-color: #fff;
+}

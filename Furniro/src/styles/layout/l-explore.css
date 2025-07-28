@@ -1,0 +1,19 @@
+.l-explore {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 670px;
+    gap: 42px;
+    margin-bottom: 67px;
+    
+    background-color: #FCF8F3;
+}
+
+.l-explore img:nth-child(2) {
+    height: 486px;
+}
+
+.l-explore img:nth-child(3) {
+    height: 486px;
+}

@@ -1,0 +1,17 @@
+.button {
+    left: 241px;
+    position: absolute;
+    margin-bottom: 24px;
+}
+
+.button > button {
+    padding: 12px;
+    width: 48px;
+    height: 48px;
+    background-color: var(--color-primary);
+}
+
+.button > img {
+    width: 48px;
+    height: 48px;
+}

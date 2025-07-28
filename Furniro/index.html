@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/main/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="./src/js/script.js" defer></script>
+    <title>Furniro</title>
+    <link rel="icon" type="image/icon-furniro" href="./assets/images/icon-furniro.svg">
+</head>
+
+<body>
+
+    <div class="overlay"></div>
+    <header>
+        <img src="./assets/images/logo-funiro.svg" alt="">
+        <nav class="nav-header">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+            </ul>
+            <ul>
+                <li><a href="./src/pages/shop.html">Shop</a></li>
+            </ul>
+            <ul>
+                <li><a href="./src/pages/blog.html">About</a></li>
+            </ul>
+            <ul>
+                <li><a href="./src/pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="icon-wrapper">
+            <img src="./assets/images/icon-attencion.svg" alt="símbolo de uma pessoa com ponto de exclamação ao lado">
+            <img src="./assets/images/icon-search.svg" alt="lupa" loading="eager">
+            <img src="./assets/images/icon-heart.svg" alt="coração" loading="eager">
+            <button class="btn-drop-down">
+                <img src="./assets/images/icon-cart.svg" alt="carrinho" loading="eager">
+            </button>
+        </div>
+
+        <div class="l-cart is-hidden">
+            <div class="cart-tittle">
+                <h2>Shopping Cart</h2>
+                <button class="btn-close"><img src="./assets/images/icon-cart-close.svg" alt=""></button>
+            </div>
+            <div class="cart-items">
+                <div class="cart-card">
+                    <img src="./assets/images/image-item-asgaard-sofa.svg" alt="" class="card-product">
+                    <div class="card-about">
+                        <h3>Asgaard sofa</h3>
+                        <p>1<span>X</span><span class="price">Rs. 250,000.00</span></p>
+                    </div>
+                    <img src="./assets/images/icon-remove-item.svg" alt="" class="card-remove">
+                </div>
+                <div class="cart-card">
+                    <img src="./assets/images/image-item-casaliving-wood.svg" alt="" class="card-product">
+                    <div class="card-about">
+                        <h3>Casaliving Wood</h3>
+                        <p>1<span>X</span><span class="price">Rs. 270,000.00</span></p>
+                    </div>
+                    <img src="./assets/images/icon-remove-item.svg" alt="" class="card-remove">
+                </div>
+            </div>
+            <div class="cart-footer">
+                <h3>Subtotal <span>Rs. 520,000.00</span></h3>
+                <div class="cart-link-wrapper">
+                    <a href="">Cart</a>
+                    <a href="">Checkout</a>
+                    <a href="">Comparison</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main>
+        <div class="hero-image-primary">
+            <img src="./assets/images/background-hero-image-alt-1.svg" alt="">
+            <div class="main-content-primary">
+                <p class="main-content-kicker">New Arrival</p>
+                <h1>Discover Our New Collection</h1>
+                <p class="main-content-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                <a href="./src/pages/shop.html">buy now</a>
+            </div>
+        </div>
+    </main>
+
+    <section class="l-browse">
+        <h2>Browse The Range</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="card-container-primary">
+            <div class="card-primary">
+                <img src="./assets/images/image-dining.svg" alt="" loading="lazy">
+                <h3>Dining</h3>
+            </div>
+            <div class="card-primary">
+                <img src="./assets/images/image-living.svg" alt="" loading="lazy">
+                <h3>Living</h3>
+            </div>
+            <div class="card-primary">
+                <img src="./assets/images/image-bedroom.svg" alt="" loading="lazy">
+                <h3>Bedroom</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="l-our-products">
+        <h2>Our Products</h2>
+        <div class="card-container-secondary">
+            <div class="card-secondary">
+                <div class="image-discount">
+                    <img src="./assets/images/image-product-syltherine.svg" alt="" loading="lazy">
+                    <div class="red-circle">
+                        <p>-30%</p>
+                    </div>
+                </div>
+                <div class="about-container">
+                    <h3>Syltherine</h3>
+                    <p>Stylish cafe chair</p>
+                    <div class="price-container">
+                        <h4>Rp 2.500.000</h4>
+                        <p>Rp 3.500.000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-secondary">
+                <img src="./assets/images/image-product-leviosa.svg" alt="" loading="lazy">
+                <div class="about-container">
+                    <h3>Leviosa</h3>
+                    <p>Stylish cafe chair</p>
+                    <h4>Rp 2.500.000</h4>
+                </div>
+            </div>
+
+            <div class="card-secondary">
+                <div class="image-discount">
+                    <img src="./assets/images/image-product-lolito.svg" alt="" loading="lazy">
+                    <div class="red-circle">
+                        <p>-50%</p>
+                    </div>
+                </div>
+                <div class="about-container">
+                    <h3>Lolito</h3>
+                    <p>Luxury big sofa</p>
+                    <div class="price-container">
+                        <h4>Rp 7.000.000</h4>
+                        <p>Rp 14.000.000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-secondary">
+                <div class="image-discount">
+                    <img src="./assets/images/image-product-respira.svg" alt="" loading="lazy">
+                    <div class="green-circle">
+                        <p>New</p>
+                    </div>
+                </div>
+                <div class="about-container">
+                    <h3>Respira</h3>
+                    <p>Outdoor bar table and stool</p>
+                    <h4>Rp 500.000</h4>
+                </div>
+            </div>
+
+            <div class="card-secondary">
+                <img src="./assets/images/image-product-grifo.svg" alt="" loading="lazy">
+                <div class="about-container">
+                    <h3>Grifo</h3>
+                    <p>Night lamp</p>
+                    <h4>Rp 1.500.000</h4>
+                </div>
+            </div>
+
+            <div class="card-secondary">
+                <div class="image-discount">
+                    <img src="./assets/images/image-product-muggo.svg" alt="" loading="lazy">
+                    <div class="green-circle">
+                        <p>New</p>
+                    </div>
+                </div>
+                <div class="about-container">
+                    <h3>Muggo</h3>
+                    <p>Small mug</p>
+                    <h4>Rp 150.000</h4>
+                </div>
+            </div>
+
+            <div class="card-secondary">
+                <div class="image-discount">
+                    <img src="./assets/images/image-product-pingky.svg" alt="" loading="lazy">
+                    <div class="red-circle">
+                        <p>-50%</p>
+                    </div>
+                </div>
+                <div class="about-container">
+                    <h3>Pingky</h3>
+                    <p>Cute bed set</p>
+                    <div class="price-container">
+                        <h4>Rp 7.000.000</h4>
+                        <p>Rp 14.000.000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-secondary">
+                <div class="image-discount">
+                    <img src="./assets/images/image-product-potty.svg" alt="" loading="lazy">
+                    <div class="green-circle">
+                        <p>New</p>
+                    </div>
+                </div>
+                <div class="about-container">
+                    <h3>Potty</h3>
+                    <p>Minimalist flower pot</p>
+                    <h4>Rp 500.000</h4>
+                </div>
+            </div>
+        </div>
+        <a class="hover-alt-2" href="./src/pages/shop.html">Show More</a>
+    </section>
+
+    <section class="l-explore">
+        <div class="explore-content">
+            <h2>50+ Beautiful rooms inspiration</h2>
+            <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+            <a class="hover" href="./src/pages/shop.html">Explore More</a>
+        </div>
+        <div class="image-wrapper">
+            <div class="background-image-inner-peace">
+                <div class="explore-aside">
+                    <div class="text-wrapper-explore">
+                        <p>01</p>
+                        <div class="line"></div>
+                        <p>Bedroom</p>
+                    </div>
+                    <h3>Inner Peace</h3>
+                </div>
+                <div class="button">
+                    <button>
+                        <img src="./assets/images/icon-arrow-right.svg" alt="" loading="lazy">
+                    </button>
+                </div>
+            </div>
+            <img src="./assets/images/image-inner-peace-1.svg" alt="" loading="lazy">
+            <img src="./assets/images/image-inner-peace-2.svg" alt="" loading="lazy">
+        </div>
+    </section>
+
+    <section class="l-share">
+        <p>Share your setup with</p>
+        <h2>#FuniroFurniture</h2>
+        <div class="image-wrapper-share">
+            <img src="./assets/images/image-share-1.svg" alt="" loading="lazy">
+            <img src="./assets/images/image-share-2.svg" alt="" loading="lazy">
+            <img src="./assets/images/image-share-3.svg" alt="" loading="lazy">
+            <img src="./assets/images/image-share-4.svg" alt="" loading="lazy">
+            <img src="./assets/images/image-share-5.svg" alt="" loading="lazy">
+            <img src="./assets/images/image-share-6.svg" alt="" loading="lazy">
+            <img src="./assets/images/image-share-7.svg" alt="" loading="lazy">
+            <img src="./assets/images/image-share-8.svg" alt="" loading="lazy">
+            <img src="./assets/images/image-share-9.svg" alt="" loading="lazy">
+        </div>
+    </section>
+
+    <footer>
+        <div class="top-footer">
+            <div class="text-wrapper-footer">
+                <h2>Funiro.</h2>
+                <p>400 University Drive Suite 200 Coral Gables,<br>FL 33134 USA</p>
+            </div>
+            <nav class="nav-footer">
+                <div class="links">
+                    <h3>links</h3>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./src/pages/shop.html">Shop</a></li>
+                        <li><a href="./src/pages/blog.html">About</a></li>
+                        <li><a href="./src/pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="help">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="">Payment Options</a></li>
+                        <li><a href="">Returns</a></li>
+                        <li><a href="">Privacy Policies</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="newsletter">
+                <h3>Newsletter</h3>
+                <div class="input-footer">
+                    <input type="email" id="email-address" name="email-address" placeholder="Enter Your Email Address">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-footer">
+            <p>2023 furino. All rights reverved</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

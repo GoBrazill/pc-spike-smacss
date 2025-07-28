@@ -1,0 +1,91 @@
+.card-container-secondary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+
+.card-secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    cursor: pointer;
+
+    width: 285px;
+    height: 446px;
+    
+    background-color: var(--color-light-bg);
+}
+
+.image-discount {
+    display: flex;
+    justify-content: end;
+}
+
+.card-secondary img {
+    width: 285px;
+    height: 301px;
+}
+
+.red-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    margin: 24px 24px;
+    
+    width: 48px;
+    height: 48px;
+    
+    color: var(--color-white);
+    background-color: var(--color-red-accent)
+}
+
+.green-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    margin: 24px 24px;
+    
+    width: 48px;
+    height: 48px;
+    
+    color: var(--color-white);
+    background-color: var(--color-green-accent)
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    padding: 16px 15px 30px 16px;
+}
+.card-secondary h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-gray-1);
+}
+
+.card-secondary h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-gray-1);
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.price-container > p {
+    font-size: 16px;
+    color: var(--color-gray-4);
+    text-decoration: line-through;
+}

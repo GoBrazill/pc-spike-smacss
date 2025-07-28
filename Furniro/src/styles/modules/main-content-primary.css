@@ -1,0 +1,43 @@
+.main-content-primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 58px;
+
+    width: 643px;
+    height: 443px;
+    padding: 62px 43px 37px 39px;
+
+    background-color: #FFF3E3;
+}
+
+.main-content-primary h1 {
+    font-size: 52px;
+    color: var(--color-primary);
+}
+
+.main-content-kicker {
+    font-size: 16px;
+
+    color: var(--color-font);
+}
+
+.main-content-primary > .main-content-subtext {
+    font-size: 18px;
+
+    color: var(--color-font);
+}
+
+.main-content-primary > a {
+    width: 222px;
+    height: 74px;
+    margin-top: 46px;
+    padding: 25px 72px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}

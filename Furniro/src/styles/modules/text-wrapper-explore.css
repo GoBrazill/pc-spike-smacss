@@ -1,0 +1,7 @@
+.text-wrapper-explore {
+    display: flex;
+    color: var(--color-gray-2);
+    gap: 8px;
+    padding: 32px 0 0 32px;
+}
+

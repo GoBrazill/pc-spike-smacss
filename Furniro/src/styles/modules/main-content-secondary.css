@@ -1,0 +1,12 @@
+.main-content-secondary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-secondary h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+

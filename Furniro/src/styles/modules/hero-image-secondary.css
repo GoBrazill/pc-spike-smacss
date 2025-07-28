@@ -1,0 +1,12 @@
+.hero-image-secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 316px;
+
+    background-image: url(../../../assets/images/background-hero-image-alt-2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,27 @@
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 53px;
+    margin: 48px 206.99px 0 0;
+    font-size: 16px;
+
+    color: #9F9F9F;
+}
+
+.input-footer {
+    display: flex;
+    gap: 11px;
+}
+
+.input-footer input {
+    border-bottom: 1px solid var(--color-black);
+}
+
+.input-footer button {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-bottom: 1px solid var(--color-black);
+}

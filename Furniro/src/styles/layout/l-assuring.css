@@ -1,0 +1,10 @@
+.l-assuring {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 270px;
+    padding: 100px 53px;
+    
+    background-color: #FAF3EA;
+}

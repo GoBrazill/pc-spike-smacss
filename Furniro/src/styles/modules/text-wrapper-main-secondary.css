@@ -1,0 +1,15 @@
+.text-wrapper-main-secondary {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.text-wrapper-main-secondary > .text-wrapper-link-bold {
+    font-weight: 500;
+    color: var(--color-black);
+}
+
+.text-wrapper-main-secondary > .text-wrapper-link-normal {
+    font-weight: normal;
+    color: var(--color-black);
+}

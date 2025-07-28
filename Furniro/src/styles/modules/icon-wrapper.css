@@ -1,0 +1,8 @@
+.icon-wrapper {
+    display: flex;
+    gap: 45px;
+}
+
+.icon-wrapper img{
+    cursor: pointer;
+}

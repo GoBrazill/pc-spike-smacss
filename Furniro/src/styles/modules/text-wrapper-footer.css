@@ -1,0 +1,16 @@
+.text-wrapper-footer {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    gap: 50px;
+    margin: 48px 136px 0 100px;
+}
+
+.text-wrapper-footer > h2{
+    font-size: 24px;
+}
+
+.text-wrapper-footer > p {
+    font-size: 16px;
+    color: #9F9F9F;
+}
