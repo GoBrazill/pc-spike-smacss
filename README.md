@@ -2,12 +2,12 @@
 
 > **Aluno(a):** Vinicius de Araújo Silva
 > **Turma:** Desenvolvedor Front-end
-> **Data:** [xx/06/2025]
+> **Data:** [28/07/2025]
 
 ---
 
 ## 1. Introdução
-![Capa do livro](./assets/images/book-covers.png "Arquitetura Escalável e Modular para CSS")
+![Capa do livro](./Furniro/assets/images/book-covers.png "Arquitetura Escalável e Modular para CSS")
 > Um guia flexível para o desenvolvolvimento de sites pequenos e grandes - Jonathan Snook
 
 **SMACSS** (Arquitetura escalável e modular para css) é um método de organização que foca em tornar seu CSS escalável, modular(dividido em componentes) e mais compreensível. Esse método foca principalmente em dividir o seu CSS em 5 categorias: base, layout, modules, states e themes. Com essas categorias em mão e o entendimento de cada uma é possível começar a ver padrões no seu css e fazer uma estrutura fácil de construir e manter.
