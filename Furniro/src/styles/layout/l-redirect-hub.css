@@ -1,0 +1,30 @@
+.l-redirect-hub {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 100px;
+    padding: 31px 0 32px 99px;
+
+    background-color: #F9F1E7;
+}
+
+.l-redirect-hub > a {
+    color: #9F9F9F;
+}
+
+.arrow-1 {
+    padding-left: 14px;
+    padding-right: 24px;
+}
+
+.arrow-2 {
+    padding-left: 21px;
+    padding-right: 25px;
+}
+
+.l-redirect-hub > .current-product{
+    padding-left: 34px;
+    border-left: 2px solid #9F9F9F;
+    color: #000;
+}
