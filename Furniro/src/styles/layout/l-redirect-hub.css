@@ -8,23 +8,3 @@
 
     background-color: #F9F1E7;
 }
-
-.l-redirect-hub > a {
-    color: #9F9F9F;
-}
-
-.arrow-1 {
-    padding-left: 14px;
-    padding-right: 24px;
-}
-
-.arrow-2 {
-    padding-left: 21px;
-    padding-right: 25px;
-}
-
-.l-redirect-hub > .current-product{
-    padding-left: 34px;
-    border-left: 2px solid #9F9F9F;
-    color: #000;
-}
