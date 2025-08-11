@@ -238,6 +238,7 @@ Como recomendações, não faça um projeto tão longo quanto esse aqui enquanto
 
 - [Livro do criador](https://smacss.com)
 - [Introdução básica ao SMACSS](https://youtu.be/0Nm8VoCN-M8?si=QAmmKWhHU0QTN9Cn)
+- [Projeto utilizado do figma](https://www.figma.com/files/team/1486052385131181217/resources/community/file/1252561852327562039?fuid=1486052383188999805)
 
 ---
 
