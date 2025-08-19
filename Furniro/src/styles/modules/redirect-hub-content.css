@@ -6,12 +6,12 @@
     color: #9F9F9F;
 }
 
-.redirect-hub-arrow-1 {
+.redirect-hub-content > .arrow-1 {
     padding-left: 14px;
     padding-right: 24px;
 }
 
-.redirect-hub-arrow-2 {
+.redirect-hub-content > .arrow-2 {
     padding-left: 21px;
     padding-right: 25px;
 }

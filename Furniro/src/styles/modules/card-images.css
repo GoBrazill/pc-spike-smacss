@@ -1,0 +1,15 @@
+.card-images {
+    display: flex;
+    gap: 31px;
+}
+
+.card-images img {
+    background-color: #F9F1E7;
+    border-radius: 10px;
+}
+
+.card-images-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
