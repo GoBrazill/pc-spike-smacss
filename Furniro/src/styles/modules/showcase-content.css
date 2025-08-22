@@ -3,6 +3,11 @@
     flex-direction: column;
 }
 
+.showcase-content img {
+    width: 30px;
+    height: 30px;
+}
+
 .showcase-content h1 {
     font-size: 42px;
     font-weight: normal;
@@ -39,33 +44,38 @@
     margin-bottom: 18px;
 }
 
-.showcase-content-btn-sizes button {
+.btn-wrapper-sizes button {
     width: 30px;
     height: 30px;
     border-radius: 5px;
     background-color: #F9F1E7;
 }
 
-.showcase-content-btn-colors {
+.btn-wrapper-colors {
     display: flex;
     gap: 16px;
 }
 
-.showcase-content-btn-colors button {
+.btn-wrapper-colors button {
     width: 30px;
     height: 30px;
 
     border-radius: 50px;
 }
 
-.showcase-content-btn-colors > .purple {
+.btn-wrapper-colors > .purple {
     background-color: #816DFA;
 }
 
-.showcase-content-btn-colors > .black {
+.btn-wrapper-colors > .black {
     background-color: black;
 }
 
-.showcase-content-btn-colors > .beige {
+.btn-wrapper-colors > .beige {
     background-color: var(--color-primary);
+}
+
+.btn-wrapper-options {
+    display: flex;
+
 }
