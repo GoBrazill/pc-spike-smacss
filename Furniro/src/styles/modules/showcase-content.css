@@ -1,11 +1,21 @@
 .showcase-content {
     display: flex;
     flex-direction: column;
+    margin-top: 7px;
 }
 
-.showcase-content img {
+.showcase-content > img {
     width: 30px;
     height: 30px;
+}
+
+.showcase-content p {
+    font-size: 13px;
+}
+
+.showcase-content > p {
+    width: 423px;
+    margin-bottom: 22px;
 }
 
 .showcase-content h1 {
@@ -27,18 +37,20 @@
     color: #9F9F9F;
 }
 
+.star-wrapper {
+    display: flex;
+    margin: 15px 0 22px 0;
+}
+
 .text-review {  
     padding-left: 22px;
+    margin-left: 18px;
 
     border-left: 1px solid #9F9F9F;
     color: #9F9F9F;
 }
 
-.showcase-content p {
-    font-size: 13px;
-}
-
-.showcase-content-btn-sizes {
+.btn-wrapper-sizes {
     display: flex;
     gap: 16px;
     margin-bottom: 18px;
@@ -77,5 +89,92 @@
 
 .btn-wrapper-options {
     display: flex;
+    margin-top: 32px;
+}
 
+.btn-wrapper-options button{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.options-quantity {
+    display: flex;
+    gap: 35px;
+    padding: 20px 12px 20px 15px;
+    font-size: 16px;
+    border-color: #9F9F9F;
+}
+
+.options-add {
+    padding: 17px 48px;
+    margin: 0 10px 0 18px;
+    font-size: 20px;
+}
+
+.options-compare {
+    padding: 15px 46px 14px 47px;
+    font-size: 20px;
+}
+
+.showcase-details {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 41px;
+    margin: 60px 0 55px 0;
+    border-top: 1px solid #D9D9D9;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+}
+
+.details p {
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+.sku span {
+    padding: 0 12px 0 61px;
+}
+
+.category {
+    padding: 12px 0 12px 0;
+}
+
+.category span {
+    padding: 0 12px 0 16px;
+}
+
+.tags span {
+    padding: 0 12px 0 52px;
+}
+
+.share {
+    padding-top: 14px;
+}
+
+.share span {
+    padding: 0 12px 0 44px;
+}
+
+.share-facebook img {
+    width: 20px;
+    height: 20px;
+}
+
+.share-linkedin img {
+    width: 20px;
+    height: 20px;
+}
+
+.share-linkedin {
+    padding: 0 23px 0 25px;
+}
+
+.share-twitter img {
+    width: 25px;
+    height: 25px;
 }
