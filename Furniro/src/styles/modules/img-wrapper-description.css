@@ -1,0 +1,9 @@
+.img-wrapper-description {
+    display: flex;
+    gap: 29px;
+}
+
+.img-wrapper-description img {
+    border-radius: 10px;
+    background-color: #F9F1E7;
+}

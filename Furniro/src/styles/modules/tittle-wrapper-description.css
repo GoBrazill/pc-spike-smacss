@@ -1,0 +1,19 @@
+.tittle-wrapper-description {
+    display: flex;
+}
+
+.tittle-wrapper-description h2 {
+    color: #9F9F9F;
+    font-size: 24px;
+}
+
+.tittle-wrapper-description .tittle-active {
+    color: #000;
+}
+
+.tittle-wrapper-description > .tittle-center {
+    margin: 0 53px 0 52px;
+}
+
+
+

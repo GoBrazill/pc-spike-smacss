@@ -1,0 +1,12 @@
+.text-wrapper-description {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 30px;
+    padding: 37px 106px 36px 107px;
+}
+
+.text-wrapper-description > p {
+    font-size: 16px;
+    color: #9F9F9F;
+}
